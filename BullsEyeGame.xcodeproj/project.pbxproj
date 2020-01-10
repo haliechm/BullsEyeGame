@@ -13,6 +13,8 @@
 		CA4EAACE23ADC84A0085D985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4EAACC23ADC84A0085D985 /* Main.storyboard */; };
 		CA4EAAD023ADC84C0085D985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4EAACF23ADC84C0085D985 /* Assets.xcassets */; };
 		CA4EAAD323ADC84C0085D985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4EAAD123ADC84C0085D985 /* LaunchScreen.storyboard */; };
+		CAF5505223AF0525003C4405 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5505123AF0525003C4405 /* AboutViewController.swift */; };
+		CAF5505423AF0D57003C4405 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5505323AF0D57003C4405 /* MoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CA4EAACF23ADC84C0085D985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA4EAAD223ADC84C0085D985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA4EAAD423ADC84C0085D985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF5505123AF0525003C4405 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		CAF5505323AF0D57003C4405 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CA4EAAC823ADC84A0085D985 /* SceneDelegate.swift */,
 				CA4EAACA23ADC84A0085D985 /* ViewController.swift */,
 				CA4EAACC23ADC84A0085D985 /* Main.storyboard */,
+				CAF5505323AF0D57003C4405 /* MoreViewController.swift */,
+				CAF5505123AF0525003C4405 /* AboutViewController.swift */,
 				CA4EAACF23ADC84C0085D985 /* Assets.xcassets */,
 				CA4EAAD123ADC84C0085D985 /* LaunchScreen.storyboard */,
 				CA4EAAD423ADC84C0085D985 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF5505423AF0D57003C4405 /* MoreViewController.swift in Sources */,
 				CA4EAACB23ADC84A0085D985 /* ViewController.swift in Sources */,
 				CA4EAAC723ADC84A0085D985 /* AppDelegate.swift in Sources */,
+				CAF5505223AF0525003C4405 /* AboutViewController.swift in Sources */,
 				CA4EAAC923ADC84A0085D985 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +293,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPK4Q2K26D;
 				INFOPLIST_FILE = BullsEyeGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,7 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.HalieChmura.BullsEyeGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +312,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPK4Q2K26D;
 				INFOPLIST_FILE = BullsEyeGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.HalieChmura.BullsEyeGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
